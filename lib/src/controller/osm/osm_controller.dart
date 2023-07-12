@@ -459,7 +459,7 @@ class MobileOSMController extends IBaseOSMController {
                   angle: angle,
                   child: markerIcon,
                 );
-      int duration = 500;
+      int duration = 100;
       await Future.delayed(Duration(milliseconds: duration), () async {
         await osmPlatform.addMarker(
           _idMap,
